@@ -6,7 +6,6 @@ menu = {
 total_original_price = 0.0  # 非会员总价
 total_member_price = 0.0    # 会员总价
 for item, prices in menu.items():
-    # 打印该商品的规格和价格信息
     print(f"{item} 规格和价格：")
     print(f"  - 中: 原价 ¥{prices[0][0]}, 会员价 ¥{prices[0][1]}")
     print(f"  - 大: 原价 ¥{prices[1][0]}, 会员价 ¥{prices[1][1]}")
